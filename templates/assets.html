@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+    <div class="title">BRAIN TUMOR DETECTION</div>
+    <div class="navbar">
+        <nav>
+            <a href="#">Detection</a>
+            <a href="#">Statistiques</a>
+        </nav>
+    </div>
+     <div>
+        {% block content %}{% endblock %}
+    </div>
+
+</body>

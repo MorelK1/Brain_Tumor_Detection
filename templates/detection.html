@@ -1,0 +1,10 @@
+{% extends "assets.html" %}
+
+    {% block content %}
+        <form method="post" action="/detection" enctype="multipart/form-data">
+            <div class="container">
+                <input type="file" name="img" class="upload-box" required>
+            </div>
+            <input type="submit" value="Detecter" class="sub-det">
+      </form>
+    {% endblock %}
