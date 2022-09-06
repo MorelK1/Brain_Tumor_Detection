@@ -104,5 +104,58 @@ form{
     background-color: lightblue;
 }
 
+form{
+    position: relative;
+    width: 200px;
+    top: 150px;
+    justify-content: space-around;
+    align-content: center;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.sub-det{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    border: 1px solid dodgerblue;
+    background-color: transparent;
+    font-size: 25px;
+    color: dodgerblue;
+    transition: background-color 1s;
+
+}
+.sub-det:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+
+.upload-box{
+    font-size: 16px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px;
+    width :300px;
+    outline : none;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background-color: dodgerblue;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px aliceblue;
+    transition: tranform .5s;
+}
+
+::-webkit-file-upload-button:hover{
+    background-color: lightblue;
+}
+
 
 
